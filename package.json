@@ -14,9 +14,6 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3"
   },
-  "lint-staged": {
-    "**/*.js": "prettier --write --ignore-unknown"
-  },
   "husky": {
     "hooks": {
       "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
