@@ -8,15 +8,15 @@
     "oas:lint-warning-as-errors": "spectral lint -F warn ./examples/*",
     "prepare:husky": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run oas:lint"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@stoplight/spectral-core": "^1.18.0",
     "husky": "^8.0.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run oas:lint"
-    }
   }
 }
