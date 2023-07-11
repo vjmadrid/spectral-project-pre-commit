@@ -1,4 +1,4 @@
-<h1>Primeros pasos con Spectral (Parte 6) : Proyecto Node.js + Pre Commit</h1>
+<h1>Primeros pasos con Spectral (Parte 7) : Proyecto Node.js + Pre Commit</h1>
 
 
 
@@ -195,7 +195,15 @@ npm run oas:lint
 ```
 
 
-
+,
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
+  }
 
 
 ## Autor
