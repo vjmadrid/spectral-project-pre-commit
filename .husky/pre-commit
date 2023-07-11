@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 #npm run oas:lint
-#spectral lint -F warn ./examples/*
+spectral lint -F error ./examples/*
