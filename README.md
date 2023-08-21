@@ -125,6 +125,7 @@ npm install --save-dev husky
 ## Configuración
 
 
+
 ### Implementar comando de análisis de todos los ejemplos
 
 Pasos a seguir:
