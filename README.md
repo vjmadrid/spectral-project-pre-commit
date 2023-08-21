@@ -1,4 +1,4 @@
-<h1>Primeros pasos con Spectral (Parte 7) : Proyecto Node.js + Pre Commit</h1>
+<h1>Uso de Git Hooks para proyectos Node.js con Husky</h1>
 
 
 
